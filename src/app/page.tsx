@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import DayNightSwitch from './components/DayNightSwitch/page';
+import DayNightSwitch from './components/DayNightSwitch/DayNightSwitch';
 
 export default function Page() {
   const [isNight, setIsNight] = useState(false);
